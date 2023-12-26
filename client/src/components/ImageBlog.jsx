@@ -66,7 +66,7 @@ const ImageBlog = () => {
       reader.onload = async () => {
         const arrayBuffer = reader.result;
 
-        const response = await fetch('http://localhost:5000/image', {
+        const response = await fetch('https://gemini-image-to-blog-generator.vercel.app/image', {
           method: 'POST',
           body: arrayBuffer,
           headers: {
