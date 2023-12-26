@@ -6,11 +6,7 @@ const {runImagetoText} =require('./gemini')
 require('dotenv').config();
 const app=express();
 app.use(express.raw({ type: 'application/octet-stream', limit: '50mb' }));
-app.use(cors({
-    origin:[""],
-    methods:["POST","GET"],
-    credentials:true
-}));
+app.use(cors());
 app.use(express.json());
 
 app.get('/',(req,res)=>{
