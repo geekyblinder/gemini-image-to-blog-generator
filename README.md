@@ -1,4 +1,4 @@
-# Project Name
+# Gemini image-to-blog
 
 The project uses Google's Gemini API to create blogs from image inputs.
 
@@ -18,5 +18,4 @@ The project uses Google's Gemini API to create blogs from image inputs.
 3. Start the client: `npm start`
 
 ## Example
-
-![Project Example](./client/public/image.png)
+![image](https://github.com/geekyblinder/gemini-image-to-blog-generator/assets/100872858/bcbc94ce-012a-4d98-befd-c1122f240e7b)
